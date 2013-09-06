@@ -1,18 +1,19 @@
+Flask-Friends
+=============
+
 A flask extension for creating and managing friends
 
 Supports follow users and friendship creation
 
 uses sqlalchemy for persistence
 
-depends on
+Depends on
 ==========
 
 Functionalities
 ===============
 
-* Follow a user
-
-* Unfollow a user
+* Create a follow object
 
 * Get all user followers
 
@@ -28,3 +29,4 @@ Functionalities
 
 * Friends grouping
 
+* Get degree of friendship and route
