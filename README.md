@@ -7,6 +7,9 @@ Supports follow users and friendship creation on request
 
 Uses sqlalchemy for persistence
 
+Installation
+============
+
 Depends on
 ==========
 
