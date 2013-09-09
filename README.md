@@ -1,11 +1,11 @@
 Flask-Friends
 =============
 
-A flask extension for creating and managing friends
+A flask extension for creating and managing friend relations
 
-Supports follow users and friendship creation
+Supports follow users and friendship creation on request
 
-uses sqlalchemy for persistence
+Uses sqlalchemy for persistence
 
 Depends on
 ==========
@@ -30,3 +30,6 @@ Functionalities
 * Friends grouping
 
 * Get degree of friendship and route
+
+Usage
+=====
