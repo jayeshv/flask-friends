@@ -3,7 +3,7 @@ Flask-Friends
 
 A flask extension for creating and managing friend relations
 
-Supports follow users and friendship creation on request
+Supports follow and request based friendship creation
 
 Uses sqlalchemy for persistence
 
@@ -26,13 +26,13 @@ Functionalities
 
 * Accept/reject/ignore friend request
 
-* Delete a friendship
+* Delete a friend relation or request
 
 * Get all friends for a user
 
 * Friends grouping
 
-* Get degree of friendship and route
+* Get degree of friendship and route between any two users
 
 Usage
 =====
