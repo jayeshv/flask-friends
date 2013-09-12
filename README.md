@@ -5,7 +5,7 @@ A flask extension for creating and managing friend relations
 
 Supports follow and request based friendship creation
 
-Uses sqlalchemy for persistence
+Provide mixin classes from which the developer can inherit the models from
 
 Installation
 ============
