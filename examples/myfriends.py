@@ -27,7 +27,9 @@ class User(db.Model):
 #friendship_manager.ignore_requests(request)
 #friendship_manager.get_friends(user1)
 #friendship_manager.get_relation(user1, user2)  #including route
-
+#friendship_manager.drop_relation(user1, user2)
+#friendship_manager.add_group()
+#friendship_manager.add_to_group(relation, group)
 
 @app.route('/login')
 def login_view():
