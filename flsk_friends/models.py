@@ -1,11 +1,14 @@
 class Follow(object):
     pass
 
-class Request(object):
+
+class FriendRequest(object):
     pass
+
 
 class Friendhip(object):
     pass
+
 
 class FriendGroup(object):
     pass
