@@ -14,22 +14,26 @@ class User(db.Model):
     name = db.Column(db.Unicode)
     email = db.Column(db.Unicode, unique=True)
 
+
 #friendship_manager = flask.ext.friends.Friends()
 
+#Follow
 #friendship_manager.follow(user1, user2)
 #friendship_manager.get_followers(user1)
 #friendship_manager.get_following(user1)
 
+#Friends
 #friendship_manager.friend_request(user1, user2)
 #friendship_manager.get_requests(user1)
 #friendship_manager.accept_requests(request)
 #friendship_manager.reject_requests(request)
 #friendship_manager.ignore_requests(request)
-#friendship_manager.get_friends(user1)
+#friendship_manager.get_friends(user1, group)   #group is none by deafult 
 #friendship_manager.get_relation(user1, user2)  #including route
 #friendship_manager.drop_relation(user1, user2)
 #friendship_manager.add_group()
 #friendship_manager.add_to_group(relation, group)
+
 
 @app.route('/login')
 def login_view():
