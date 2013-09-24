@@ -23,22 +23,22 @@ class User(db.Model):
 
 #1st release
 #Follow
-#friendship_manager.add_group()                  #to group friends 
+#friendship_manager.add_group()                  #to group friends
 #friendship_manager.grop_group()                 #all relations in the group will be dropped
 #friendship_manager.follow(user1, user2, group)  #group is none by default
-#friendship_manager.get_followers(user1, group)
-#friendship_manager.get_following(user1)
+#friendship_manager.get_followers(user, group)
+#friendship_manager.get_following(user)
 #friendship_manager.unfollow(follow)
 
 #2nd release
 #Mutual Friends
 #friendship_manager.friend_request(user1, user2)
-#friendship_manager.get_requests(user1)
-#friendship_manager.accept_requests(request)   
+#friendship_manager.get_requests(user)
+#friendship_manager.accept_requests(request)
 #friendship_manager.reject_requests(request)
 #friendship_manager.ignore_requests(request)
-#friendship_manager.get_friends(user1, group)   #group is none by deafult 
-#friendship_manager.get_relation(user1, user2)  #including route
+#friendship_manager.get_friends(user, group)   #group is none by deafult
+#friendship_manager.get_relation(user1, user2) #including route
 #friendship_manager.drop_relation(relation)
 #friendship_manager.add_to_group(relation, group)
 
@@ -58,4 +58,3 @@ def add_friend():
 
 db.create_all()
 app.run()
-
