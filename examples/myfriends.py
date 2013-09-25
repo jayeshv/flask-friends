@@ -23,15 +23,15 @@ class User(db.Model):
 
 #1st release
 #Follow
-#friendship_manager.add_group()                  #to group friends
-#friendship_manager.grop_group()                 #all relations in the group will be dropped
+#friendship_manager.add_group()                  #to categorize friends
+#friendship_manager.grop_group()                 #all relations in the group will also be dropped
 #friendship_manager.follow(user1, user2, group)  #group is none by default
-#friendship_manager.get_followers(user, group)
+#friendship_manager.get_followers(user, group)   #group is none by default
 #friendship_manager.get_following(user)
 #friendship_manager.unfollow(follow)
 
 #2nd release
-#Mutual Friends
+#Mutual Friends using request
 #friendship_manager.friend_request(user1, user2)
 #friendship_manager.get_requests(user)
 #friendship_manager.accept_requests(request)
