@@ -1,3 +1,6 @@
+from flask import Blueprint
+
+
 class FollowManager(object):
     
     def __init__(self, self, app=None, flask_sqlalchemy_db=None):

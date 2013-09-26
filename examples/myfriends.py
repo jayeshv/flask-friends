@@ -21,9 +21,9 @@ class User(db.Model):
 
 #1st release
 #Follow
-#follow_manager = flask.ext.friends.Follow()
+#follow_manager = flask.ext.friends.FollowManager()
 #follow_manager.add_group()                  #to categorize friends
-#follow_manager.grop_group()                 #all relations in the group will also be dropped
+#follow_manager.drop_group()                 #all relations in the group will also be dropped
 #follow_manager.follow(user1, user2, group)  #group is none by default
 #follow_manager.get_followers(user, group)   #group is none by default
 #follow_manager.get_following(user)
@@ -31,7 +31,9 @@ class User(db.Model):
 
 #2nd release
 #Mutual Friends using request
-#friendship_manager = flask.ext.friends.Friends()
+#friendship_manager = flask.ext.friends.FriendshipManager()
+#follow_manager.add_group()                                   #to categorize friends
+#follow_manager.drop_group()                                  #all relations in the group will also be dropped
 #friendship_manager.friend_request(user1, user2)
 #friendship_manager.get_requests(user)
 #friendship_manager.accept_requests(request)
