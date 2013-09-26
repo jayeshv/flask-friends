@@ -19,19 +19,19 @@ class User(db.Model):
     email = db.Column(db.Unicode, unique=True)
 
 
-#friendship_manager = flask.ext.friends.Friends()
-
 #1st release
 #Follow
-#friendship_manager.add_group()                  #to categorize friends
-#friendship_manager.grop_group()                 #all relations in the group will also be dropped
-#friendship_manager.follow(user1, user2, group)  #group is none by default
-#friendship_manager.get_followers(user, group)   #group is none by default
-#friendship_manager.get_following(user)
-#friendship_manager.unfollow(follow)
+#follow_manager = flask.ext.friends.Follow()
+#follow_manager.add_group()                  #to categorize friends
+#follow_manager.grop_group()                 #all relations in the group will also be dropped
+#follow_manager.follow(user1, user2, group)  #group is none by default
+#follow_manager.get_followers(user, group)   #group is none by default
+#follow_manager.get_following(user)
+#follow_manager.unfollow(follow)
 
 #2nd release
 #Mutual Friends using request
+#friendship_manager = flask.ext.friends.Friends()
 #friendship_manager.friend_request(user1, user2)
 #friendship_manager.get_requests(user)
 #friendship_manager.accept_requests(request)
