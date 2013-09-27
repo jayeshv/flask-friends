@@ -42,6 +42,7 @@ class User(db.Model):
 #friendship_manager.get_friends(user, group)   #group is none by deafult
 #friendship_manager.get_relation(user1, user2) #including route
 #friendship_manager.drop_relation(relation)
+#friendship_manager.relation_history(user)
 #friendship_manager.add_to_group(relation, group)
 
 

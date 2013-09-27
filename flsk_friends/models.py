@@ -1,13 +1,21 @@
 class FollowGroup(object):
-    pass
+    #groupname
+    #created
+    #active
 
 
 class Follow(object):
-    pass
+    #follower = 
+    #following
+    #created
+    #group
 
 
 class FriendRequest(object):
-    pass
+    #requeestfrom
+    #requestto
+    #created
+    #status
 
 
 class FriendGroup(object):
