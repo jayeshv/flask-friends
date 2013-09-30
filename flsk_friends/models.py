@@ -1,4 +1,5 @@
 class FollowGroup(object):
+    #owner
     #groupname
     #created
     #active
