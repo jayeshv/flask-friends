@@ -11,13 +11,14 @@ class FollowManager(object):
         pass
 
     def add_group(self):
-        pass
+        follow_group = FollowGroup()
+        follow_group.save()
 
     def drop_group(self):
         pass
 
     def follow(self, user1, user2, group):
-        """ user1 following user2 
+        """ user1 following user2
         request initiated by user1 """
 
         follow = Follow()
@@ -33,10 +34,10 @@ class FollowManager(object):
 
     def get_following(self, user):
         """ Get all users following <user>"""
-        
+
         Follow.query.filter(folloing=user)
 
-    def unfollow(self, follow):        
+    def unfollow(self, follow):
         pass
 
 
