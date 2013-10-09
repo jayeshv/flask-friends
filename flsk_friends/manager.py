@@ -17,15 +17,26 @@ class FollowManager(object):
         pass
 
     def follow(self, user1, user2, group):
-        pass
+        """ user1 following user2 
+        request initiated by user1 """
+
+        follow = Follow()
+        follow.follower = user1
+        follow.following = user2
+        follow.group = group
+        follow.save()
 
     def get_followers(self, user, group):
-        pass
+        """ Get all users that <user> follows"""
+
+        Follow.query.filter(follower=user)
 
     def get_following(self, user):
-        pass
+        """ Get all users following <user>"""
+        
+        Follow.query.filter(folloing=user)
 
-    def unfollow(self, follow):
+    def unfollow(self, follow):        
         pass
 
 
