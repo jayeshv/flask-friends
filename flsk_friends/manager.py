@@ -1,4 +1,3 @@
-
 from flask import Blueprint
 
 
@@ -38,6 +37,8 @@ class FollowManager(object):
         Follow.query.filter(folloing=user)
 
     def unfollow(self, follow):
+        """ Drop the follow object"""
+
         pass
 
 
@@ -47,4 +48,10 @@ class FriendshipManager(object):
         self.init_app(app, flask_sqlalchemy_db)
 
     def init_app(self, app=None, flask_sqlalchemy_db=None):
+        pass
+
+    def get_friends(self, user):
+        pass
+
+    def get_pending_requests(self, user):
         pass
