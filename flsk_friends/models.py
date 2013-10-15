@@ -10,6 +10,7 @@ class Follow(object):
     #following
     #created
     #group
+    #active
 
 
 class FriendRequest(object):
@@ -20,8 +21,15 @@ class FriendRequest(object):
 
 
 class FriendGroup(object):
-    pass
+    #owner
+    #groupname
+    #created
+    #active
 
 
 class Friendhip(object):
-    pass
+    #from_user
+    #to_user
+    #created
+    #group
+    #active 
