@@ -55,3 +55,21 @@ class FriendshipManager(object):
 
     def get_pending_requests(self, user):
         pass
+
+    def drop_friendship(self, friendship):
+        pass
+
+    def accept_request(self, request):
+        pass
+
+    def decline_request(self, request):
+        pass
+
+    def drop_request(self, request):
+        pass
+
+    def get_route(self, from_user, to_user):
+        pass
+
+    def get_common_friends(self, user1, user2):
+        pass
