@@ -65,7 +65,10 @@ class FriendshipManager(object):
     def decline_request(self, request):
         pass
 
-    def drop_request(self, request):
+    def ignore_request(self, request):
+        pass
+
+    def withdraw_request(self, request):
         pass
 
     def get_route(self, from_user, to_user):
