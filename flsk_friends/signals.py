@@ -9,4 +9,3 @@ request_received = signals.signal("request-received")
 request_accepted = signals.signal("request-accepted")
 
 request_rejected = signals.signal("request-rejected")
-

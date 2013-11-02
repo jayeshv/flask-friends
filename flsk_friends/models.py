@@ -6,7 +6,7 @@ class FollowGroup(object):
 
 
 class Follow(object):
-    #follower = 
+    #follower =
     #following
     #created
     #group
@@ -32,4 +32,4 @@ class Friendhip(object):
     #to_user
     #created
     #group
-    #active 
+    #active
