@@ -9,12 +9,14 @@ class FollowManager(object):
     def init_app(self, app=None, flask_sqlalchemy_db=None):
         pass
 
-    def add_group(self):
+    def add_group(self, name, user):
         follow_group = FollowGroup()
+        follow_group.owner = user
+        follow_group.groupname = name
         follow_group.save()
 
-    def drop_group(self):
-        pass
+    def drop_group(self, group):
+        group.delete()
 
     def follow(self, user1, user2, group):
         """ user1 following user2
